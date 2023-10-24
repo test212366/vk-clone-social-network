@@ -1,0 +1,17 @@
+.container {
+	background-color: rgb(243, 243, 243);
+	width: 100%;
+	min-height: 93vh;
+}
+.content {
+	padding-top: 50px;
+}
+.noneFriends {
+	margin-top: 100px;
+	margin-left: 120px;
+	color: #007aff;
+}
+.infoItem {
+	margin-right: 5px;
+	margin-bottom: -4px;
+}

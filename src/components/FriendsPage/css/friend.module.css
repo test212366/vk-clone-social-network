@@ -1,0 +1,31 @@
+.backArrow {
+	margin-top: 5px;
+	margin-right: 5px;
+	transform: rotate(90deg);
+}
+.container {
+	background-color: rgb(243, 243, 243);
+	width: 100%;
+	min-height: 93vh;
+}
+.header {
+	margin-bottom: 10px;
+	display: flex;
+	background-color: #fff;
+	padding: 7px;
+	align-items: center;
+}
+.header p {
+	font-weight: 600;
+	margin-left: 10px;
+	color: rgba(0, 0, 0, 0.658);
+}
+.noneFriends {
+	margin-top: 100px;
+	margin-left: 115px;
+	color: #007aff;
+}
+.infoItem {
+	margin-right: 5px;
+	margin-bottom: -4px;
+}

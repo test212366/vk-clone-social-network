@@ -1,0 +1,107 @@
+.container {
+	padding: 40px 10px 20px 10px;
+	background-color: rgb(245, 245, 245);
+	min-height: 93vh;
+}
+
+.itemLink {
+	text-decoration: none;
+}
+
+.photo {
+	margin-top: 7px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.input {
+	margin-top: 3px;
+	width: 80%;
+	padding: 4px 4px 4px 20px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.09);
+	margin-bottom: 5px;
+}
+.chat {
+	border-radius: 20px;
+	position: relative;
+	display: flex;
+	margin-bottom: 10px;
+	padding: 5px;
+	align-items: center;
+	background-color: rgb(255, 255, 255);
+}
+.chat__name {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.79);
+	font-weight: 500;
+}
+.chat__lastM {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.47);
+}
+.chat__photo {
+	position: relative;
+}
+.chat__status {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	bottom: 6px;
+	right: 4px;
+	border-radius: 50%;
+	border: 1px solid rgb(255, 255, 255);
+	background-color: green;
+}
+.chat__date {
+	position: absolute;
+	font-size: 13px;
+	color: rgba(0, 0, 0, 0.35);
+	top: 10px;
+	right: 10px;
+}
+.wrap {
+	margin-left: 8px;
+
+	display: flex;
+	flex-direction: column;
+}
+.searchChats {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+}
+.create {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	width: 45px;
+	height: 45px;
+	border: none;
+	color: #000000;
+	background-color: rgb(255, 255, 255);
+	-webkit-box-shadow: 0px 0px 23px 2px rgba(11, 123, 210, 0.2);
+	-moz-box-shadow: 0px 0px 23px 2px rgba(11, 123, 210, 0.2);
+	box-shadow: 0px 0px 23px 2px rgba(11, 123, 210, 0.2);
+	border-radius: 50%;
+	padding: 0 4px 0 4px;
+}
+
+.noneFriends {
+	margin-top: 100px;
+	margin-left: 50px;
+	color: #007aff;
+}
+.infoItem {
+	margin-right: 5px;
+	margin-bottom: -4px;
+}
+.load {
+	padding: 20px;
+	color: #007aff;
+}

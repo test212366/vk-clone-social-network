@@ -1,0 +1,12 @@
+.container {
+	background-color: rgb(243, 243, 243);
+	width: 100%;
+	min-height: 93vh;
+}
+.content {
+	padding-top: 50px;
+}
+.small {
+	padding: 10px;
+	color: #007aff;
+}

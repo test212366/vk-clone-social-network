@@ -1,0 +1,105 @@
+.container {
+	min-height: 93vh;
+	background-color: rgb(245, 245, 245);
+}
+.header {
+	background-color: rgb(255, 255, 255);
+	padding: 5px;
+	display: flex;
+	align-items: center;
+}
+.content {
+	margin-top: 10px;
+}
+.content p {
+	margin: 10px;
+	font-size: 16px;
+}
+.input {
+	background-color: rgba(0, 0, 0, 0.09);
+	outline: none;
+	border-radius: 10px;
+	border: none;
+	padding: 6px;
+	padding-left: 20px;
+	width: 100%;
+	margin-right: 10px;
+	margin-left: 40px;
+}
+.search {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	color: #007aff;
+}
+.friendFR {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	height: 60px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.friendDesc {
+	margin-left: 10px;
+}
+.friend__name {
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.76);
+}
+.friendPH {
+	display: flex;
+	object-fit: cover;
+	align-items: center;
+	border-radius: 50%;
+}
+.message {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+.wrap {
+	transition: 0.3s ease all;
+}
+.link {
+	text-decoration: none;
+}
+.friend__age {
+	font-size: 13px;
+	color: rgba(0, 0, 0, 0.58);
+}
+.linkFriend {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+.addFriendBtn {
+	padding: 5px;
+	border: none;
+	color: rgb(82, 82, 82);
+	background-color: rgb(226, 226, 226);
+	border-radius: 10px;
+}
+.linkFriend {
+	display: flex;
+	text-decoration: none;
+}
+.find {
+	padding: 10px;
+	color: #007aff;
+}
+.call {
+	padding: 10px;
+}
+.noneFriends {
+	margin-top: 100px;
+	margin-left: 120px;
+	color: #007aff;
+}
+.infoItem {
+	margin-right: 5px;
+	margin-bottom: -4px;
+}

@@ -1,0 +1,248 @@
+.container {
+	padding: 30px;
+	overflow: hidden;
+}
+.login {
+	position: absolute;
+	top: 280px;
+	transition: 0.5s ease all;
+	left: -50%;
+	transform: translateX(-50%);
+	font-size: 14px;
+	font-weight: 600;
+	background-color: #0074f0;
+	border: none;
+	padding: 10px 16px 10px 16px;
+	border-radius: 20px;
+	color: #fff;
+}
+.active {
+	left: 50%;
+}
+.back {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	transform: rotate(180deg);
+}
+.title {
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.wrapper__input {
+	transition: .3s ease all;
+	position: relative;
+}
+.wrA {
+	margin-top: 20px;
+}
+.emailItem {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.email {
+	width: 100%;
+	outline: none;
+	padding: 10px;
+	padding-left: 40px;
+	border-radius: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.507);
+	margin-bottom: 20px;
+	color: rgba(0, 0, 0, 0.637);
+	font-weight: 600;
+	transition: 0.3s ease all;
+}
+.email:focus {
+	border: 1px solid #007aff;
+}
+.email::placeholder {
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.295);
+}
+.form {
+	display: flex;
+	flex-direction: column;
+}
+.remember__item {
+	display: flex;
+	align-items: center;
+}
+.remember__itemIn {
+	height: 16px;
+	width: 16px;
+	transition: 0.3s ease all;
+}
+.remember__itemIn:checked {
+	animation-name: shadow;
+	animation-duration: 0.6s;
+}
+@keyframes shadow {
+	0% {
+	}
+	50% {
+		-webkit-box-shadow: 0px 0px 0px 22px rgba(0, 144, 255, 0.2);
+		-moz-box-shadow: 0px 0px 0px 22px rgba(0, 144, 255, 0.2);
+		box-shadow: 0px 0px 0px 22px rgba(0, 144, 255, 0.2);
+	}
+	100% {
+		-webkit-box-shadow: 0px 0px 0px 22px rgba(0, 144, 255, 0);
+		-moz-box-shadow: 0px 0px 0px 22px rgba(0, 144, 255, 0);
+		box-shadow: 0px 0px 0px 22px rgba(0, 144, 255, 0);
+	}
+}
+.label {
+	margin-left: 6px;
+}
+.errors {
+	opacity: 0;
+	transition: .3s ease all;
+	position: absolute;
+	top: -23px;
+	font-size: 13px;
+	left: 0;
+	color: red;
+}
+.errorsP {
+	opacity: 0;
+	transition: .3s ease all;
+	position: absolute;
+	top: -33px;
+	font-size: 12px;
+	left: 0;
+	color: red;
+}
+.acE {
+	opacity: 1;
+}
+.preloader {
+	display: flex;
+	padding-top: 40%;
+	justify-content: center;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.65);
+	font-weight: 500;
+	color: #000000;
+}
+span {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	opacity: 0;
+}
+
+.let1 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 1.2s;
+}
+
+.let2 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 1.3s;
+}
+
+.let3 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 1.4s;
+}
+
+.let4 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 1.5s;
+	margin-right: 5px;
+}
+
+.let5 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 1.6s;
+	margin-right: 5px;
+}
+
+.let6 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 1.7s;
+}
+
+.let7 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 1.8s;
+}
+.let8 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 1.9s;
+}
+.let9 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 2s;
+}
+.let10 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 2.1s;
+}
+.let11 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 2.2s;
+}
+.let12 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 2.3s;
+}
+.let13 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 2.4s;
+}
+.let14 {
+	animation: drop 1.2s ease-in-out infinite;
+	animation-delay: 2.5s;
+}
+
+
+@keyframes drop {
+	10% {
+		opacity: 0.5;
+	}
+	20% {
+		opacity: 1;
+		top: 3.78em;
+		transform: rotateX(-360deg);
+	}
+	80% {
+		opacity: 1;
+		top: 3.78em;
+		transform: rotateX(-360deg);
+	}
+	90% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 0;
+		top: 6.94em
+	}
+}
+
+.loader {
+	color: #006de2;
+	font-family: Consolas, Menlo, Monaco, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	opacity: 0.8;
+}
+.loader span {
+	display: inline-block;
+	animation: pulse 0.4s alternate infinite ease-in-out;
+}
+.loader span:nth-child(odd) {
+	animation-delay: 0.4s;
+}
+@keyframes pulse {
+	to {
+		transform: scale(0.8);
+		opacity: 0.5;
+	}
+}
